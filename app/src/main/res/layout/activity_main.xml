@@ -7,7 +7,7 @@
     android:orientation="horizontal"
     tools:context=".MainActivity" >
 
-    <androidx.fragment.app.FragmentContainerView
+    <fragment
         android:id="@+id/gameControl"
         android:name="com.example.hangman.GameControlFragment"
         android:layout_width="0dp"
@@ -30,11 +30,7 @@
             android:background="@color/game_state_background"
             android:orientation="vertical" >
 
-            <TextView
-                android:id="@+id/activitytv"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="BOB" />
+
         </LinearLayout>
 
         <LinearLayout
